@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     HomeContainer,
     ButtonContainer,
@@ -11,7 +12,9 @@ const Home = () => {
 
     for (let i = 1; i <= buttonCount; i++) {
         buttons.push(
-            <NumberButton key={i}>{i}</NumberButton>
+            <Link key={i} to={`/${i}`}> {/* 수정된 부분 */}
+                <NumberButton>{i}</NumberButton>
+            </Link>
         );
     };
 
