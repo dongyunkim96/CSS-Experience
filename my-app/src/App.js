@@ -14,7 +14,7 @@ function App() {
     <AppContainer>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/CSS-Experience' element={<Home />} />
         <Route path='/1' element={<Page1 />} />
         <Route path='/2' element={<Page2 />} />
         <Route path='/3' element={<Page3 />} />
