@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://dongyunkim96.github.io/",
+  "homepage": "https://dongyunkim96.github.io/CSS-Experience/",
   "eslintConfig": {
     "extends": [
       "react-app",
