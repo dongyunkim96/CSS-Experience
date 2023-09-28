@@ -20,6 +20,7 @@ export const NavLink = styled(Link)`
   color: white;
   text-decoration: none;
   margin-left: 1rem;
+  margin-right: 5rem;
 
   &:hover {
     text-decoration: underline;

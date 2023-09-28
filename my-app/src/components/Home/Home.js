@@ -20,7 +20,7 @@ const Home = () => {
 
     return(
         <HomeContainer>
-            <h2>Days</h2>
+            <h2>Press the button to check my CSS works.</h2>
             <ButtonContainer>
                 {buttons}
             </ButtonContainer>
