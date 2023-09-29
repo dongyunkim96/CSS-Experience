@@ -10,6 +10,7 @@ import Page4 from './pages/4/Page4';
 import Page5 from './pages/5/Page5';
 import Page6 from './pages/6/Page6';
 import Page7 from './pages/7/Page7';
+import Page8 from './pages/8/Page8';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/5' element={<Page5 />} />
         <Route path='/6' element={<Page6 />} />
         <Route path='/7' element={<Page7 />} />
+        <Route path='/8' element={<Page8 />} />
       </Routes>
     </AppContainer>
   );
