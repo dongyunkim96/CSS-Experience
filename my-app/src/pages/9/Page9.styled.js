@@ -1,4 +1,4 @@
-import styled, { keyframes, css } from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const raindropAnimation = dropHeight => css`
   @keyframes animation {
