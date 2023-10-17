@@ -20,13 +20,14 @@ import Page14 from './pages/14/Page14';
 import Page15 from './pages/15/Page15';
 import Page16 from './pages/16/Page16';
 import Page17 from './pages/17/Page17';
+import Page18 from './pages/18/Page18';
 
 function App() {
   return (
     <AppContainer>
       <Header />
       <Routes>
-        <Route exact path='/' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route path='/1' element={<Page1 />} />
         <Route path='/2' element={<Page2 />} />
         <Route path='/3' element={<Page3 />} />
@@ -44,6 +45,7 @@ function App() {
         <Route path='/15' element={<Page15 />} />
         <Route path='/16' element={<Page16 />} />
         <Route path='/17' element={<Page17 />} />
+        <Route path='/18' element={<Page18 />} />
       </Routes>
     </AppContainer>
   );
