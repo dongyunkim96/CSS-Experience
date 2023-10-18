@@ -1,13 +1,13 @@
 import React from 'react';
 import {
-    Frame,
-    Center
+    Frame6,
+    Center6
 } from './Page6.styled.js';
 
 const Page6 = () => {
     return (
-      <Frame>
-        <Center>
+      <Frame6>
+        <Center6>
           <div className="card">
             <div className="profile">
               <div className="image">
@@ -41,8 +41,8 @@ const Page6 = () => {
               </div>
             </div>
           </div>
-        </Center>
-      </Frame>
+        </Center6>
+      </Frame6>
     );
   };
   

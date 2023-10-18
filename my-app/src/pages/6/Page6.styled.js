@@ -14,7 +14,7 @@ export const rotate360 = keyframes`
 const brown = '#786450';
 
 // Define the styled components
-export const Frame = styled.div`
+export const Frame6 = styled.div`
   position: absolute;
   top: 50%;
   left: 50%;
@@ -32,10 +32,10 @@ export const Frame = styled.div`
   -moz-osx-font-smoothing: grayscale;
 `;
 
-export const Center = styled.div`
+export const Center6 = styled.div`
   position: absolute;
-  top: 50%;
-  left: 50%;
+  left: 10px;
+  top: -60px;
   transform: translate(-50%, -50%);
 
   .card {

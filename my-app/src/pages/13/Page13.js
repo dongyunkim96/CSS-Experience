@@ -9,8 +9,8 @@ const Page13 = () => {
     }
 
     return (
-        <div className='frame'>
-            <div className='center'>
+        <div className='frame13'>
+            <div className='center13'>
             <div className='imageFrame' onClick={toggleMenu}>
                     <img src='https://100dayscss.com/codepen/13-1.jpg' className='image' alt="13-1" />
                     <div className="plus">+</div>
