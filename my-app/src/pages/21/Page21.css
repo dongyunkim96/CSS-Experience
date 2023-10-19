@@ -1,0 +1,64 @@
+.frame21 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+      box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+      overflow: hidden;
+    background: #2C2E2E;
+      border-radius:4px;
+  }
+  
+  .center21 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .pacman{
+      stroke:yellow;
+      stroke-width:50;
+      animation: pacman .8s ease infinite;
+      
+  }
+  @keyframes pacman {
+      0%, 100%  {
+          transform:rotate(0deg);
+          stroke-dasharray:157;
+      }
+      50% {
+          transform:rotate(30deg);
+          stroke-dasharray:125;
+      }
+  }
+  
+  .eye{
+      position:absolute;
+      left:50px;
+      top:10px;
+      animation:eye .8s ease infinite;
+  }
+  @keyframes eye {
+      0%, 100% {transform:translate(5px, 5px)}	
+      50%{transform:translate(0px, 0px)}
+  }
+  .dots{
+      position:absolute;
+      height:20px;
+      width:200px;
+      bottom:47px;
+      left:50px;
+      stroke:yellow;
+      stroke-dasharray: 0px 50px;
+      stroke-linecap: round;
+      stroke-width:14px;
+      animation: dots .8s linear infinite;
+  }
+  @keyframes dots {
+      0%{ stroke-dashoffset: -8}
+      100% {stroke-dashoffset: 42}
+  }

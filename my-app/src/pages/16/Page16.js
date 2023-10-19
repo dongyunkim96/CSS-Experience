@@ -2,7 +2,7 @@ import './Page16.css';
 
 const Page16 = () => {
     return(
-        <div className="frame">
+        <div className="frame16">
          <div className="blobb"></div>
 	     <div className="blobb-ring"></div>
 	     <svg className="octagon">
