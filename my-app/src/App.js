@@ -32,6 +32,7 @@ import Page26 from './pages/26/Page26';
 import Page27 from './pages/27/Page27';
 import Page28 from './pages/28/Page28';
 import Page29 from './pages/29/Page29';
+import Page30 from './pages/30/Page30';
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
         <Route path='/27' element={<Page27 />} />
         <Route path='/28' element={<Page28 />} />
         <Route path='/29' element={<Page29 />} />
+        <Route path='/30' element={<Page30 />} />
       </Routes>
     </AppContainer>
   );
