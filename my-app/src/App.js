@@ -28,6 +28,10 @@ import Page22 from './pages/22/Page22';
 import Page23 from './pages/23/Page23';
 import Page24 from './pages/24/Page24';
 import Page25 from './pages/25/Page25';
+import Page26 from './pages/26/Page26';
+import Page27 from './pages/27/Page27';
+import Page28 from './pages/28/Page28';
+import Page29 from './pages/29/Page29';
 
 function App() {
   return (
@@ -60,6 +64,10 @@ function App() {
         <Route path='/23' element={<Page23 />} />
         <Route path='/24' element={<Page24 />} />
         <Route path='/25' element={<Page25 />} />
+        <Route path='/26' element={<Page26 />} />
+        <Route path='/27' element={<Page27 />} />
+        <Route path='/28' element={<Page28 />} />
+        <Route path='/29' element={<Page29 />} />
       </Routes>
     </AppContainer>
   );
