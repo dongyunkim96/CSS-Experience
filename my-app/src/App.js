@@ -37,6 +37,8 @@ import Page31 from './pages/31/Page31';
 import Page32 from './pages/32/Page32';
 import Page33 from './pages/33/Page33';
 import Page34 from './pages/34/Page34';
+import Page35 from './pages/35/Page35';
+import Page36 from './pages/36/Page36';
 
 function App() {
   return (
@@ -78,6 +80,8 @@ function App() {
         <Route path='/32' element={<Page32 />} />
         <Route path='/33' element={<Page33 />} />
         <Route path='/34' element={<Page34 />} />
+        <Route path='/35' element={<Page35 />} />
+        <Route path='/36' element={<Page36 />} />
       </Routes>
     </AppContainer>
   );
