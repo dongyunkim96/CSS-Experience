@@ -45,6 +45,8 @@ import Page39 from './pages/39/Page39';
 import Page40 from './pages/40/Page40';
 import Page41 from './pages/41/Page41';
 import Page42 from './pages/42/Page42';
+import Page43 from './pages/43/Page43';
+import Page44 from './pages/44/Page44';
 
 function App() {
   return (
@@ -94,6 +96,8 @@ function App() {
         <Route path='/40' element={<Page40 />} />
         <Route path='/41' element={<Page41 />} />
         <Route path='/42' element={<Page42 />} />
+        <Route path='/43' element={<Page43 />} />
+        <Route path='/44' element={<Page44 />} />
       </Routes>
     </AppContainer>
   );
