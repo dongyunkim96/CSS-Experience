@@ -87,6 +87,7 @@ import Page81 from './pages/81/Page81';
 import Page82 from './pages/82/Page82';
 import Page83 from './pages/83/Page83';
 import Page84 from './pages/84/Page84';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -179,6 +180,7 @@ function App() {
         <Route path='/83' element={<Page83 />} />
         <Route path='/84' element={<Page84 />} />
       </Routes>
+      <Footer />
     </AppContainer>
   );
 }
