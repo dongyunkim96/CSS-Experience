@@ -83,6 +83,10 @@ import Page77 from './pages/77/Page77';
 import Page78 from './pages/78/Page78';
 import Page79 from './pages/79/Page79';
 import Page80 from './pages/80/Page80';
+import Page81 from './pages/81/Page81';
+import Page82 from './pages/82/Page82';
+import Page83 from './pages/83/Page83';
+import Page84 from './pages/84/Page84';
 
 function App() {
   return (
@@ -170,6 +174,10 @@ function App() {
         <Route path='/78' element={<Page78 />} />
         <Route path='/79' element={<Page79 />} />
         <Route path='/80' element={<Page80 />} />
+        <Route path='/81' element={<Page81 />} />
+        <Route path='/82' element={<Page82 />} />
+        <Route path='/83' element={<Page83 />} />
+        <Route path='/84' element={<Page84 />} />
       </Routes>
     </AppContainer>
   );
