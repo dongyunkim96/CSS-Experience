@@ -91,6 +91,12 @@ import Page85 from './pages/85/Page85';
 import Page86 from './pages/86/Page86';
 import Page87 from './pages/87/Page87';
 import Page88 from './pages/88/Page88';
+import Page89 from './pages/89/Page89';
+import Page90 from './pages/90/Page90';
+import Page91 from './pages/91/Page91';
+import Page92 from './pages/92/Page92';
+import Page93 from './pages/93/Page93';
+import Page94 from './pages/94/Page94';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -187,6 +193,12 @@ function App() {
         <Route path='/86' element={<Page86 />} />
         <Route path='/87' element={<Page87 />} />
         <Route path='/88' element={<Page88 />} />
+        <Route path='/89' element={<Page89 />} />
+        <Route path='/90' element={<Page90 />} />
+        <Route path='/91' element={<Page91 />} />
+        <Route path='/92' element={<Page92 />} />
+        <Route path='/93' element={<Page93 />} />
+        <Route path='/94' element={<Page94 />} />
       </Routes>
       <Footer />
     </AppContainer>
