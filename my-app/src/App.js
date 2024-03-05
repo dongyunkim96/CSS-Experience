@@ -97,6 +97,8 @@ import Page91 from './pages/91/Page91';
 import Page92 from './pages/92/Page92';
 import Page93 from './pages/93/Page93';
 import Page94 from './pages/94/Page94';
+import Page95 from './pages/95/Page95';
+import Page96 from './pages/96/Page96';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -199,6 +201,8 @@ function App() {
         <Route path='/92' element={<Page92 />} />
         <Route path='/93' element={<Page93 />} />
         <Route path='/94' element={<Page94 />} />
+        <Route path='/95' element={<Page95 />} />
+        <Route path='/96' element={<Page96 />} />
       </Routes>
       <Footer />
     </AppContainer>
