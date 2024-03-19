@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Frame74 = styled.div`
   position: absolute;
@@ -11,7 +11,7 @@ export const Frame74 = styled.div`
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background-color: #1abc9c;
+  background: #1abc9c;
   color: #333;
 `;
 
@@ -22,40 +22,32 @@ export const Center74 = styled.div`
   transform: translate(-50%, -50%);
 `;
 
-export const Pagination74 = styled.div`
+export const Container74 = styled.div`
   display: flex;
-  flex-direction: row;
-  column-gap: 24px;
-  align-items: center;
+  justify-content: center;
 `;
 
-export const Input74 = styled.input`
-  all: unset;
-  border: 1px solid white;
-  border-radius: 100%;
+export const Circle74 = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
+  border: 1px solid;
+  border-radius: 40px;
+  background: none;
   color: white;
-  margin: 0;
-  transition: 0.8s ease-in-out;
+  margin: 10px;
+  transition: all 0.5s ease-in-out;
 
   &:hover {
+    background-color: #16a085;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.1);
   }
-`;
 
-export const Label74 = styled.label`
-  color: white;
-  margin: 0;
-  margin-left: -44px;
-`;
-
-export const CheckedInput74 = styled(Input74)`
-  transform: 0.8s;
-  background-color: white;
-`;
-
-export const CheckedLabel74 = styled(Label74)`
-  color: #1abc9c;
+  &:focus {
+    background-color: white;
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
+  }
 `;

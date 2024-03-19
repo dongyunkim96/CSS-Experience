@@ -1,30 +1,21 @@
-import React, { useState } from "react";
-import { Center74, Frame74, Input74, Label74, Pagination74 } from "./Page74.styled";
+import React from "react";
+import {
+    Center74,
+    Circle74,
+    Container74,
+    Frame74,
+} from './Page74.styled';
 
 const Page74 = () => {
-    const [currentPage, setCurrentPage] = useState(1);
-
-    const handlePageChange = (page) => {
-        setCurrentPage(page);
-    };
-
     return (
         <Frame74>
             <Center74>
-                <Pagination74>
-                    {[1, 2, 3, 4].map((page) => (
-                        <>
-                            <Input74
-                              type="radio"
-                              id={`page-${page}`}
-                              name="page"
-                              checked={currentPage === page}
-                              onChange={() => handlePageChange}
-                            />
-                            <Label74 htmlFor={`page-${page}`}>{page}</Label74>
-                        </>
-                    ))}
-                </Pagination74>
+                <Container74>
+                    <Circle74>1</Circle74>
+                    <Circle74>2</Circle74>
+                    <Circle74>3</Circle74>
+                    <Circle74>4</Circle74>
+                </Container74>
             </Center74>
         </Frame74>
     );
