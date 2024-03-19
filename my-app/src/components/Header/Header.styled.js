@@ -17,6 +17,8 @@ export const Title = styled.h1`
 export const Nav = styled.nav``;
 
 export const NavLink = styled(Link)`
+  font-size: 4rem;
+  border-color: white;
   color: white;
   text-decoration: none;
   margin-left: 1rem;

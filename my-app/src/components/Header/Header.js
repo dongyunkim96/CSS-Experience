@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
         <HeaderContainer>
-            <Title>Wellcome to Dongyun's CSS Practice Page</Title>
+            <Title>Wellcome to Dongyun's CSS Practice Page&emsp;&emsp;&emsp;&emsp;&emsp;Please click the "Home" buttom &rarr;</Title>
             <Nav>
                 <NavLink to="/">Home</NavLink>
             </Nav>
